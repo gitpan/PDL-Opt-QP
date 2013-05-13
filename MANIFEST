@@ -1,0 +1,15 @@
+Build.PL
+Changes
+inc/Module/Build/PDL/Fortran.pm
+lib/PDL/Opt/QP.pd
+lib/PDL/Opt/QP.pod
+MANIFEST			This list of files
+META.json
+META.yml
+README
+src/dpo.f
+src/dpofa.f
+src/Makefile
+src/solve.QP.f
+t/1.t
+t/2.t

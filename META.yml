@@ -1,0 +1,28 @@
+---
+abstract: 'Quadratic programming solver for PDL'
+author:
+  - 'Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>'
+build_requires:
+  ExtUtils::CBuilder: 0
+  ExtUtils::F77: 0
+configure_requires:
+  Devel::CheckLibs: 0.99
+  Module::Build: 0.4004
+  Module::Build::PDL: v0.0.3
+  parent: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.112621'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: PDL-Opt-QP
+requires:
+  PDL: 2.00
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=PDL-Opt-QP
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/mvgrimes/pdl-opt-qp
+version: 0.01
+x_test_requires:
+  Test::More: 0
