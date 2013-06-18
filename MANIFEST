@@ -1,6 +1,7 @@
 Build.PL
 Changes
 lib/PDL/Opt/QP.pd
+lib/PDL/Opt/QP.pod
 MANIFEST			This list of files
 META.json
 META.yml
