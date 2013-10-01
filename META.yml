@@ -9,6 +9,7 @@ build_requires:
   Module::Build::Pluggable::CheckLib: 1.02
   Module::Build::Pluggable::Fortran: 0.23
   Module::Build::Pluggable::PDL: 0.23
+  Module::Build::Pluggable::Warn64Bit: 0
   PDL: 2.006
 configure_requires:
   Devel::CheckLib: 0.04
@@ -17,8 +18,9 @@ configure_requires:
   Module::Build::Pluggable::CheckLib: 1.02
   Module::Build::Pluggable::Fortran: 0.23
   Module::Build::Pluggable::PDL: 0.23
+  Module::Build::Pluggable::Warn64Bit: 0
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,14 +29,14 @@ name: PDL-Opt-QP
 provides:
   PDL::Opt::QP:
     file: lib/PDL/Opt/QP.pd
-    version: 0.25
+    version: 0.26_10
 requires:
   PDL: 2.006
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=PDL-Opt-QP
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/pdl-opt-qp
-version: 0.25
+version: 0.26_10
 x_test_requires:
   Test::Exception: 0
   Test::More: 0
