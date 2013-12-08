@@ -29,14 +29,14 @@ name: PDL-Opt-QP
 provides:
   PDL::Opt::QP:
     file: lib/PDL/Opt/QP.pd
-    version: 0.26_10
+    version: 0.26
 requires:
   PDL: 2.006
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=PDL-Opt-QP
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/pdl-opt-qp
-version: 0.26_10
+version: 0.26
 x_test_requires:
   Test::Exception: 0
   Test::More: 0
